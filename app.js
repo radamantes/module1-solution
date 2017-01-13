@@ -15,7 +15,7 @@
 		$scope.ConHambre = function (stringToSplit, separator) {
 
 			if (stringToSplit == null) {
-				window.alert("You have to enter your food's lists separated by comma");
+				$scope.stateOfBeing = "You have to enter your food's lists separated by comma";
 			}
 
 			else{
