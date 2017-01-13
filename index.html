@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app='LunchCheck'>
+<head>
+  <meta charset="utf-8">
+  <script src="angular.min.js"></script>
+  <script src="app.js"></script>
+  <title>Modulo 1</title>
+</head>
+<body>
+  <h1>Modulo 1</h1>
+  <div ng-controller='LunchCheckController'>
+    <input type="text" ng-model="name"> <!-- aqui estou passando o que está sendo digitado -->
+
+    <!-- {{name}} -->
+    
+
+    <button ng-click="ConHambre(name, ',')">Check Status</button>
+    <div ng-style="myObj">{{stateOfBeing}}
+    </div>
+  </div>
+
+</body>
+</html>
